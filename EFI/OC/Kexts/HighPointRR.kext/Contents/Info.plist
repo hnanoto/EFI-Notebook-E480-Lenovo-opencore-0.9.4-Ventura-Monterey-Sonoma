@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>19H2</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>HighPointRR</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Version: 4.22.1, Copyright (c) 2020 HighPoint Technologies, Inc.</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.highpoint-tech.kext.HighPointRR</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>HighPointRR</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>4.22.1</string>
+	<key>CFBundleSupportedPlatforms</key>
+	<array>
+		<string>MacOSX</string>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>4.22.1</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>11E608c</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>16C58</string>
+	<key>DTSDKName</key>
+	<string>macosx10.12</string>
+	<key>DTXcode</key>
+	<string>1150</string>
+	<key>DTXcodeBuild</key>
+	<string>11E608c</string>
+	<key>IOKitPersonalities</key>
+	<dict>
+		<key>RR2722_Controller</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.highpoint-tech.kext.HighPointRR</string>
+			<key>IOClass</key>
+			<string>HPTRRController</string>
+			<key>IOKitDebug</key>
+			<integer>0</integer>
+			<key>IOMatchCategory</key>
+			<string>IOService</string>
+			<key>IOPCIPauseCompatible</key>
+			<true/>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x27101103 0x27111103 0x27201103 0x27211103 0x27221103 0x37201103 0x37221103 0x37401103 0x37421103 0x37441103 0x28201103 0x28221103 0x28401103 0x28421103 0x28441103 0x71101103</string>
+			<key>IOPCITunnelCompatible</key>
+			<true/>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>IOResourceMatch</key>
+			<string>IOKit</string>
+			<key>IOUserClientClass</key>
+			<string>HPTRAIDControllerClient</string>
+			<key>Physical Interconnect</key>
+			<string>SAS</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+		</dict>
+		<key>RR64xl_Controller</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.highpoint-tech.kext.HighPointRR</string>
+			<key>IOClass</key>
+			<string>HPTRRController</string>
+			<key>IOKitDebug</key>
+			<integer>0</integer>
+			<key>IOMatchCategory</key>
+			<string>IOService</string>
+			<key>IOPCIPauseCompatible</key>
+			<true/>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x6451103 0x6411103 0x6461103 0x6421103 0x8201103 0x8221103 0x8401103 0x8421103 0x8441103</string>
+			<key>IOPCITunnelCompatible</key>
+			<true/>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>IOResourceMatch</key>
+			<string>IOKit</string>
+			<key>IOUserClientClass</key>
+			<string>HPTRAIDControllerClient</string>
+			<key>Physical Interconnect Location</key>
+			<string>External</string>
+		</dict>
+	</dict>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.12</string>
+	<key>OSBundleLibraries</key>
+	<dict>
+		<key>com.apple.iokit.IOPCIFamily</key>
+		<string>2.5</string>
+		<key>com.apple.iokit.IOSCSIParallelFamily</key>
+		<string>2.0</string>
+		<key>com.apple.kpi.iokit</key>
+		<string>10.0.0d1</string>
+		<key>com.apple.kpi.libkern</key>
+		<string>10.0.0d1</string>
+		<key>com.apple.kpi.mach</key>
+		<string>10.0.0d1</string>
+	</dict>
+</dict>
+</plist>
